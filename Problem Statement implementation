@@ -1,0 +1,7 @@
+# Calculate savings of rupees 100 every year for 3 years
+years_saved = 0
+money = 0
+while years_saved < 3:
+      years_saved = years_saved + 1
+      money = money + 100
+print(years_saved,money)
